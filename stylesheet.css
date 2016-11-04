@@ -1,0 +1,30 @@
+@font-face {
+        font-family: Noto-Sans;
+        src: url(fonts/NotoSans-regular.ttf);
+}
+
+@font-face {
+        font-family: Noto-Sans Bold;
+        src: url(fonts/NotoSans-bold.ttf);
+    }
+
+@font-face {
+        font-family: Noto-Sans Italic;
+        src: url(fonts/NotoSans-italic.ttf);
+}
+
+@font-face {
+        font-family: Noto-Sans Bold Italic;
+        src: url(fonts/NotoSans-bolditalic.ttf);
+        }
+
+* {
+	font-family: Noto-Sans;
+}
+
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+
+}
