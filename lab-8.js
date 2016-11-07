@@ -41,8 +41,8 @@ for (var i = 0; i < groceryList.length; i++) {
   var printedList = document.createElement('div')
 
 	printedList.innerHTML = groceryList[i].name + " $" + groceryList[i].price;
-	document.body.appendChild(printedList);
-	
+	//document.body.appendChild(printedList);
+	document.getElementById("main").appendChild(printedList);
 
 
 	  
@@ -53,8 +53,8 @@ var printedTotal = document.createElement('div')
 
 	printedTotal.innerHTML = "Total $" + total;
 	printedTotal.innerHTML = "Total $" + total;
-	document.body.appendChild(printedTotal);
-
+	//document.body.appendChild(printedTotal);
+	document.getElementById("main").appendChild(printedTotal);
 
 function addToList() {
  var newItemName = document.getElementByID("name").value; 
